@@ -4,11 +4,28 @@ http://ionicframework.com/docs/theming/ */
   --hight-light-green: #689a57;
   --light-green1: #fcfcef;
   --light-green2: #e1f0d4;
+
+  --dark-green1: #798172;
+  --dark-green2: #595F54;
+}
+
+:root {
+  --ion-color-success: var(--hight-light-green);
+  --ion-color-medium: var(--dark-green2);
+
+  --ion-color-light-green1: var(--light-green1);
+  --ion-color-light-green2: var(--light-green2);
+  --ion-color-dark-green1: var(--dark-green1);
+  --ion-color-dark-green2: var(--dark-green2);
 }
 
 body {
   --ion-background-color: var(--light-green2); /* 全局背景变量 */
   background-color: var(--light-green2);
+}
+
+ion-title {
+  color: var(--dark-green2);
 }
 
 ion-content {
@@ -19,13 +36,13 @@ ion-content {
 ion-toolbar {
   --border-color: var(--light-green2); 
   --background: var(--light-green2);       /* header 背景色 */
-  --color: #333;               /* header 文字颜色 */
+  --color: var(--dark-green2);             /* header 文字颜色 */
   --border-width: 4px 0;
 }
 
 ion-tab-bar {
   --background: var(--light-green2);       /* tab 栏背景色 */
-  --color: #999;               /* tab icon 默认颜色 */
+  --color: var(--dark-green1);               /* tab icon 默认颜色 */
   --color-selected: var(--hight-light-green);   /* tab icon 激活颜色 */
   --border: none;
 }
@@ -35,4 +52,16 @@ ion-card {
   overflow: hidden; /* 保证内容也遵循圆角 */
   background-color: #fcfcee;
   box-shadow: none;
+}
+
+ion-card ion-card-title {
+  color: var(--dark-green2);
+}
+
+ion-card ion-card-subtitle {
+  color: var(--dark-green1);
+}
+
+ion-card ion-card-content {
+  color: var(--dark-green2);
 }

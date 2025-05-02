@@ -1,0 +1,11 @@
+/* 隐藏所有平台的滚动条 */
+::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+html, body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+  overflow-y: scroll; /* 防止内容溢出不可滑动 */
+}

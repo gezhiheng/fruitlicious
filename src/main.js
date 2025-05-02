@@ -34,6 +34,8 @@ import '@ionic/vue/css/display.css'
 
 /* Theme variables */
 import './theme/variables.css'
+import './theme/hide-scroll.css'
+import './theme/reset.css'
 
 import 'virtual:uno.css'
 
