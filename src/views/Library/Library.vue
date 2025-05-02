@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import ExploreContainer from '@/components/ExploreContainer.vue'
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue'
+<script setup>
 </script>
 
 <template>
@@ -18,8 +16,6 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue
           </IonTitle>
         </IonToolbar>
       </IonHeader>
-
-      <ExploreContainer name="Tab 2 page" />
     </IonContent>
   </IonPage>
 </template>

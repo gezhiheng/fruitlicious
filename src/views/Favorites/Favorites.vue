@@ -1,5 +1,4 @@
 <script setup>
-import ExploreContainer from '@/components/ExploreContainer.vue'
 </script>
 
 <template>
@@ -17,8 +16,6 @@ import ExploreContainer from '@/components/ExploreContainer.vue'
           </ion-title>
         </ion-toolbar>
       </ion-header>
-
-      <ExploreContainer name="Tab 1 page" />
     </ion-content>
   </ion-page>
 </template>
