@@ -32,3 +32,4 @@ npm-debug.log*
 /www
 
 public/images/
+public/assets/data/
